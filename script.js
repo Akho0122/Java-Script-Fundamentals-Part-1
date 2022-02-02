@@ -149,28 +149,39 @@
 // }
 // if(favorite !== 23) console.log("Why not 23 ?")
 
-const hasDriversLicense = true;
-const hasGoodVision = true;
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
-// if(shouldDrive){
+// // if(shouldDrive){
+// //     console.log("Sarah is able to drive!");
+// // }else{
+// //     console.log("Someone else should drive!");
+// // }
+
+// const isTired = false;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if(hasDriversLicense && hasGoodVision && !isTired){
 //     console.log("Sarah is able to drive!");
 // }else{
 //     console.log("Someone else should drive!");
 // }
 
-const isTired = false;
-console.log(hasDriversLicense && hasGoodVision && isTired);
 
-if(hasDriversLicense && hasGoodVision && !isTired){
-    console.log("Sarah is able to drive!");
-}else{
-    console.log("Someone else should drive!");
+const scoreDolphins = (96 + 100 + 89) / 3;
+const scoreKolas = (88 + 91 + 110) / 3;
+console.log(scoreDolphins, scoreKolas);
+
+if(scoreDolphins > scoreKolas){
+   console.log("Dolphins win the trophy");
+}else if(scoreKolas > scoreDolphins){
+   console.log("Koalas win the trophy");
+}else if(scoreDolphins === scoreKolas){
+    console.log("Both win the trophy");
 }
-
-

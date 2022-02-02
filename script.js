@@ -10,7 +10,6 @@
 // const lastName = 'Schmedtmann';
 // console.log(firstName + " " + lastName);
 
-
 // // Assignment operators
 // let x = 10 + 5; // 15
 // x += 10; // x = x + 10 = 25
@@ -38,7 +37,6 @@
 
 // console.log(BMIMark, BMIJohn, markHigherBMI);
 
-
 // const firstName = "Jonas";
 // const job = 'teacher';
 // const birthYear = 1991;
@@ -46,10 +44,10 @@
 
 // const jonas = "I'm " + firstName +
 //  ", a " +  (year - birthYear)
-//   + " years old " + job + "!";  
+//   + " years old " + job + "!";
 // console.log(jonas);
 
-// const jonasNew = `I'm ${firstName},a ${year - 
+// const jonasNew = `I'm ${firstName},a ${year -
 //     birthYear} year old ${job}!`;
 
 // console.log(jonasNew);
@@ -62,7 +60,7 @@
 //     console.log('Sarah can start driving license')
 // }else{
 //     const yearsLeft = 18 - age;
-//     console.log(`Sarah is too young. 
+//     console.log(`Sarah is too young.
 //     Wait another ${yearsLeft} years:)`)
 // }
 // const birthYear = 1998;
@@ -73,7 +71,6 @@
 //    century = 21;
 // }
 // console.log(century);
-
 
 // const massMark = 78;
 // const heightMark= 1.69;
@@ -88,7 +85,6 @@
 // }else{
 //     console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}`);
 // }
-
 
 // // type conversion
 // const inputYear = '1991';
@@ -143,7 +139,7 @@
 // }else if(favorite === 7){
 //     console.log("7 is also a cool number")
 // }else if(favorite === 9){
-//     console.log("9 is also a cool number") 
+//     console.log("9 is also a cool number")
 // }else{
 //     console.log("Number is not 23 or 7")
 // }
@@ -173,15 +169,39 @@
 //     console.log("Someone else should drive!");
 // }
 
+// const scoreDolphins = (96 + 100 + 89) / 3;
+// const scoreKolas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKolas);
 
-const scoreDolphins = (96 + 100 + 89) / 3;
-const scoreKolas = (88 + 91 + 110) / 3;
-console.log(scoreDolphins, scoreKolas);
+// if(scoreDolphins > scoreKolas){
+//    console.log("Dolphins win the trophy");
+// }else if(scoreKolas > scoreDolphins){
+//    console.log("Koalas win the trophy");
+// }else if(scoreDolphins === scoreKolas){
+//     console.log("Both win the trophy");
+// }
 
-if(scoreDolphins > scoreKolas){
-   console.log("Dolphins win the trophy");
-}else if(scoreKolas > scoreDolphins){
-   console.log("Koalas win the trophy");
-}else if(scoreDolphins === scoreKolas){
-    console.log("Both win the trophy");
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("Plan Course structure");
+    console.log("Go to coding meetup");
+    break;
+  case "Tuesday":
+    console.log("Prepare theory videos");
+    break;
+  case "Wednesday":
+  case "Thursday":
+    console.log("Write code examples");
+    break;
+  case "Friday":
+    console.log("Record videos");
+    break;
+  case "Saturday":
+  case "Sunday":
+    console.log("Enjoy the weekend");
+    break;
+  default:
+    console.log("Not a valid day!");
 }

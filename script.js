@@ -181,27 +181,48 @@
 //     console.log("Both win the trophy");
 // }
 
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-  case "monday":
-    console.log("Plan Course structure");
-    console.log("Go to coding meetup");
-    break;
-  case "Tuesday":
-    console.log("Prepare theory videos");
-    break;
-  case "Wednesday":
-  case "Thursday":
-    console.log("Write code examples");
-    break;
-  case "Friday":
-    console.log("Record videos");
-    break;
-  case "Saturday":
-  case "Sunday":
-    console.log("Enjoy the weekend");
-    break;
-  default:
-    console.log("Not a valid day!");
-}
+// switch (day) {
+//   case "monday":
+//     console.log("Plan Course structure");
+//     console.log("Go to coding meetup");
+//     break;
+//   case "Tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//   case "Wednesday":
+//   case "Thursday":
+//     console.log("Write code examples");
+//     break;
+//   case "Friday":
+//     console.log("Record videos");
+//     break;
+//   case "Saturday":
+//   case "Sunday":
+//     console.log("Enjoy the weekend");
+//     break;
+//   default:
+//     console.log("Not a valid day!");
+// }
+
+// const age = 23;
+// // age >= 18 ? console.log("I like to drink wine") : 
+// // console.log("I like to drink water");
+
+// const drink = age >= 18 ? "wine" : "water";
+// console.log(drink);
+
+// let drink2 = drink;
+// if(age >= 18){
+//     drink2 = 'wine';
+// }else{
+//     drink2 = 'water';
+// }
+// console.log(drink2);
+
+// console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+ console.log(`The bill was ${bill} the tip 
+ was ${tip} and the total value ${bill + tip}`);
